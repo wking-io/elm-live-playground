@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "elm": "0.19.0",
-    "elm-live": "file:../../../elm-live/elm-live-2.7.5.tgz"
+    "elm-live": "file:../../pre-release/elm-live-2.7.5.tgz"
   },
   "scripts": {
     "dev": "elm-live src/Main.elm --output=elm.js --pushstate --debug"
