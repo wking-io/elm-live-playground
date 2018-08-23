@@ -1,0 +1,21 @@
+{
+  "name": "elm-live-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Main.elm",
+  "dependencies": {},
+  "devDependencies": {
+    "elm": "0.19.0",
+    "elm-live": "file:../elm-live/elm-live-2.7.5.tgz",
+    "uglify-js": "3.4.7"
+  },
+  "scripts": {
+    "dev:sandbox": "elm-live src/sandbox/Main.elm --output=src/sandbox/elm.js --dir=src/sandbox --pushstate --debug",
+    "dev:element": "elm-live src/element/Main.elm --output=src/element/elm.js --dir=src/element --pushstate --debug",
+    "dev:document": "elm-live src/document/Main.elm --output=src/document/elm.js --dir=src/document --pushstate --debug",
+    "dev:application": "elm-live src/application/Main.elm --output=src/application/elm.js --dir=src/application --pushstate --debug",
+    "uglify": "uglifyjs elm.js --output=elm.js"
+  },
+  "author": "Will King <contact@wking.io> (https://www.wking.io/)",
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "elm-live-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Main.elm",
+  "dependencies": {},
+  "devDependencies": {
+    "elm": "0.19.0",
+    "elm-live": "file:../../../elm-live/elm-live-2.7.5.tgz"
+  },
+  "scripts": {
+    "dev": "elm-live src/Main.elm --output=elm.js --pushstate --debug"
+  },
+  "author": "Will King <contact@wking.io> (https://www.wking.io/)",
+  "license": "MIT"
+}

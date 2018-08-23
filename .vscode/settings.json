@@ -1,0 +1,4 @@
+{
+  "elm.formatCommand": "elm-19-format",
+  "elm.makeCommand": "elm-19-make"
+}
