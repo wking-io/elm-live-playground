@@ -9,7 +9,7 @@
     "elm-live": "3.0.0"
   },
   "scripts": {
-    "dev": "elm-live src/Main.elm --output=elm.js --pushstate --debug"
+    "dev": "elm-live src/Main.elm --output=elm.js --pushstate --debug --path-to-elm=./node_modules/.bin/elm"
   },
   "author": "Will King <contact@wking.io> (https://www.wking.io/)",
   "license": "MIT"
