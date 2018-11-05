@@ -6,3 +6,5 @@ elm-stuff/
 repl-temp-*
 # elm.js build file
 /playgrounds/*/elm.js
+# DS_Store
+.DS_Store
