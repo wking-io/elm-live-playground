@@ -4,12 +4,13 @@
   "description": "",
   "main": "src/Main.elm",
   "devDependencies": {
-    "elm": "0.19.0",
-    "elm-live": "3.1.0"
+    "elm": "0.19.0"
   },
   "scripts": {
-    "dev": "elm-live src/Main.elm --pushstate -o -p 1234 --path-to-elm=./node_modules/.bin/elm -- --output=elm.js --debug",
-    "serve": "elm-serve -o -u"
+    "dev": "elm-live src/Main.elm src/About.elm --pushstate -p 1234 --path-to-elm=./node_modules/.bin/elm --start-page 'index.html' --hot --verbose --proxyPrefix '/api' --proxyHost 'https://wking.io' -- --output=elm.js --debug",
+    "serve": "elm-serve -o -u",
+    "before": "echo 'before'",
+    "after": "echo 'after'"
   },
   "author": "Will King <contact@wking.io> (https://www.wking.io/)",
   "license": "MIT"

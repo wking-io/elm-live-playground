@@ -1,4 +1,4 @@
 {
-  "elm.formatCommand": "elm-19-format",
+  "elm.formatCommand": "elm-format",
   "elm.makeCommand": "elm-19-make"
 }
